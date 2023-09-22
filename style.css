@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*///////////////////////    top bar    ///////////////////////*/
+
+.top-bar-container {
+    width: 100%;
+    height: 3rem;
+    background-color: #005085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar {
+    width: 90%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-drop-down-btn {
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+
+.uae-div {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#uae-img {
+    width: 1rem;
+    height: 0.8rem;
+    margin-top: 0.2rem;
+    margin-right: 0.3rem;
+}
+
+#uae-p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+.top-bar-right-side-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    width:30%;
+}
+
+
+.eng-div {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#eng-img {
+    width: 1.3rem;
+    height: 0.9rem;
+    margin-top: 0.2rem;
+    margin-right: 0.3rem;
+}
+
+#eng-p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+.tv-div {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tv-img {
+    width: 1.3rem;
+    height: 0.9rem;
+    margin-top: 0.2rem;
+    margin-right: 0.3rem;
+}
+
+#tv-p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+.arabic-div {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#arabic-p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+/*///////////////////////   top bar end   ///////////////////////*/
+
+
+
+/*///////////////////////   nav-bar   ///////////////////////*/
+
+.nav-bar-container {
+    width: 100%;
+    background-color: white;
+}
+
+/*///////////////////////   nav-bar end   ///////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////    reponsive    ///////////////////*/
+
+@media (max-width:768px) {
+
+    /*////////////////   top bar   ////////////////*/
+    .uae-div {
+        width: 30%;
+    }
+    .top-bar-right-side-div {
+        width: 40% !important;
+    }
+}
+
+
+@media (max-width:576px) {
+
+    /*////////////////   top bar   ////////////////*/
+    .uae-div {
+        width: 30%;
+    }
+    .top-bar-right-side-div {
+        width: 40% !important;
+    }
+    .arabic-div {
+        display: none;
+    }
+}
+
+
+@media (max-width:425px) {
+
+    /*////////////////   top bar   ////////////////*/
+    .uae-div {
+        width: 25%;
+    }
+    .top-bar-right-side-div {
+        display: flex;
+        justify-content: flex-end;
+        width: 20% !important;
+    }
+    .arabic-div {
+        display: none;
+    }
+    .tv-div {
+        display: none;
+    }
+}
