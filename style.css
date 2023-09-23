@@ -7,35 +7,35 @@
 /*///////////////////////    top bar    ///////////////////////*/
 
 .top-bar-container {
-    width: 100%;
-    height: 3rem;
-    background-color: #005085;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100% !important;
+    height: 3rem !important;
+    background-color: #005085 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .top-bar {
-    width: 90%;
-    height: 100%;
+    width: 90% !important;
+    height: 100% !important;
     /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-end !important;
 }
 
 .top-bar-drop-down-btn {
-    margin-top: 0.3rem;
-    margin-left: 0.3rem;
+    margin-top: 0.4rem !important;
+    margin-left: 0.3rem !important;
 }
 
 
 .uae-div {
     /* border: 2px solid red; */
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 50%;
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 50% !important;
 }
 
 #uae-img {
@@ -46,74 +46,76 @@
 }
 
 #uae-p {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: small !important;
 }
 
 
 .top-bar-right-side-div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: flex-start !important;
     /* border: 2px solid red; */
-    width:30%;
+    width:30% !important;
 }
 
 
 .eng-div {
     /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    /* align-items: center !important; */
+    justify-content: center !important;
+    height: 1rem !important;
 }
 
 #eng-img {
-    width: 1.3rem;
-    height: 0.9rem;
-    margin-top: 0.2rem;
-    margin-right: 0.3rem;
+    width: 1.3rem !important;
+    height: 0.9rem !important;
+    margin-top: 0.2rem !important;
+    margin-right: 0.3rem !important;
 }
 
 #eng-p {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: small !important;
 }
 
 
 .tv-div {
     /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    /* align-items: center !important; */
+    height: 1rem !important;
+    justify-content: center !important;
 }
 
 #tv-img {
-    width: 1.3rem;
-    height: 0.9rem;
-    margin-top: 0.2rem;
-    margin-right: 0.3rem;
+    width: 1.3rem !important;
+    height: 0.9rem !important;
+    margin-top: 0.2rem !important;
+    margin-right: 0.3rem !important;
 }
 
 #tv-p {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: small !important;
 }
 
 
 .arabic-div {
     /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 #arabic-p {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
+    color: white !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: small !important;
 }
 
 /*///////////////////////   top bar end   ///////////////////////*/
@@ -122,12 +124,84 @@
 
 /*///////////////////////   nav-bar   ///////////////////////*/
 
-.nav-bar-container {
-    width: 100%;
-    background-color: white;
+.nav-brand {
+    color: #04A1E8 !important;
+    font-weight: 600 !important;
+    font-size: x-large !important;
+}
+.nav-link {
+    color: black !important;
+    text-transform: capitalize;
+}
+button {
+    text-transform: capitalize;
 }
 
+.mylink {
+    margin-left: 12rem !important;
+}
+
+
 /*///////////////////////   nav-bar end   ///////////////////////*/
+
+/*///////////////////////   home   ///////////////////////*/
+.home-container {
+    width: 100%;
+    height: 60vh;
+    background-color: #F4F6FB;
+    background-image: url(./images/home/HOME-BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial !important;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center
+    ;
+}
+.home {
+    width: 90%;
+    height: 100%;
+    /* border: 2PX SOLID red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#home-h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+#home-span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: xx-large;
+    margin-top: 1%;
+}
+
+.home-h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left: 0.1rem;
+}
+
+.home p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 0.1rem;
+}
+
+.home-btn{
+    width: 8rem;
+    padding-right: 0.5rem ;
+}
+
+/*///////////////////////   home end   ///////////////////////*/
 
 
 
@@ -142,30 +216,66 @@
 
 /*///////////////////    reponsive    ///////////////////*/
 
+
+
+@media (max-width:992px) {
+
+    /*////////////   nav-bar   ////////////*/
+    .nav-link {
+        text-align: center !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    .nav-link1 {
+        margin-right: 11rem !important;
+    }
+    .btn-primary {
+        width: 100% !important;
+    }
+    .navbar-toggler {
+        border: none !important;
+    }
+    /*////////////   nav-bar end   ////////////*/
+
+
+    
+}
+
 @media (max-width:768px) {
 
     /*////////////////   top bar   ////////////////*/
     .uae-div {
-        width: 30%;
+        width: 30% !important;
     }
     .top-bar-right-side-div {
         width: 40% !important;
     }
+    /*////////////////   top bar end   ////////////////*/
+
 }
 
 
 @media (max-width:576px) {
 
     /*////////////////   top bar   ////////////////*/
+    .top-bar {
+        display: flex;
+        align-items: center !important;
+    }
     .uae-div {
-        width: 30%;
+        width: 30% !important;
+        margin-top: 1rem !important;
     }
     .top-bar-right-side-div {
         width: 40% !important;
+        display: flex;
+        align-items: center !important;
     }
     .arabic-div {
-        display: none;
+        display: none !important;
     }
+    /*////////////////   top bar end  ////////////////*/
+
 }
 
 
@@ -173,17 +283,66 @@
 
     /*////////////////   top bar   ////////////////*/
     .uae-div {
-        width: 25%;
+        width: 25% !important;
     }
     .top-bar-right-side-div {
-        display: flex;
-        justify-content: flex-end;
+        display: flex !important;
+        justify-content: flex-end !important;
         width: 20% !important;
     }
     .arabic-div {
-        display: none;
+        display: none !important;
     }
     .tv-div {
-        display: none;
+        display: none !important;
     }
+    /*////////////////   top bar end   ////////////////*/
+
+    /*////////////////   home   ////////////////*/
+    .home {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #home-span {
+        font-size: x-large !important;
+    }
+    .home-h1 {
+        font-size: 1.6rem !important;
+    }
+    .home p {
+        font-size: x-small !important;
+    }
+    .home-btn {
+        width: 7rem !important;
+    }
+    /*////////////////   home end   ////////////////*/
+
+}
+
+
+
+
+
+
+
+
+/*///////////////////////////      extra responsive      ///////////////////////////*/
+
+@media (min-width:992px) and (max-width:1318px) {
+    /*///////////////////      nav-bar      ///////////////////*/
+    .nav-brand {
+        margin-right: -8rem !important;
+    }
+    .nav-link-login {
+        margin-left: -10rem !important;
+        margin-right: -1rem !important;
+    }
+    /* .nav-link {
+        margin-right: 12rem !important;
+    } */
+
+    /*///////////////////      nav-bar end      ///////////////////*/
+    
 }
