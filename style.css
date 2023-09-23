@@ -289,11 +289,19 @@ button {
     .find-a-car-container {
         width: 100%;
         height: 100vh;
-        border: 2px solid red;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items:center;
     }
     .find-a-car {
         width: 90%;
+        /* border: 2px solid red; */
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     .find-a-car-h2 {
@@ -301,8 +309,24 @@ button {
         font-weight: 600;
         font-size: xx-large;
     }
+
     .find-a-car-span {
         color: #029FE1;
+    }
+
+    .dropdown-btn{
+        color:#029FE1;
+        width: 1rem;
+    }
+    .find-a-car-div {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* border: 2px solid red; */
+    }
+
+    .find-a-car-div {
+        margin-top: 6rem !important;
     }
 
     /*////////////////   find a car end   ////////////////*/
@@ -340,6 +364,22 @@ button {
 
 
 /*///////////////////    reponsive    ///////////////////*/
+
+
+@media (min-width:1024px) and (max-width:1440px) {
+
+    /*/////////////////     find a car     /////////////////*/
+
+    .find-a-car-container {
+        margin-top: 10rem !important;
+    }
+
+    /*/////////////////     find a car end     /////////////////*/
+
+
+}
+    
+
 
 @media (min-width:993px) and (max-width:1024px) {
 
@@ -403,6 +443,14 @@ button {
         align-items: center;
     }
     /*////////////////   about end   ////////////////*/
+
+        /*/////////////////     find a car     /////////////////*/
+    
+        .find-a-car-container {
+            margin-top: 10rem !important;
+        }
+    
+        /*/////////////////     find a car end     /////////////////*/
 
     
 }
@@ -488,6 +536,14 @@ button {
             align-items: center;
         }
         /*////////////////   about end   ////////////////*/
+
+            /*/////////////////     find a car     /////////////////*/
+    
+    .find-a-car-container {
+        margin-top: 25rem !important;
+    }
+
+    /*/////////////////     find a car end     /////////////////*/
 
 
     
@@ -582,6 +638,14 @@ button {
         align-items: center;
     }
     /*////////////////   about end   ////////////////*/
+
+        /*/////////////////     find a car     /////////////////*/
+    
+        .find-a-car-container {
+            margin-top: 30rem !important;
+        }
+    
+        /*/////////////////     find a car end     /////////////////*/
 
 
 }
@@ -693,6 +757,14 @@ button {
         align-items: center;
     }
     /*////////////////   about end   ////////////////*/
+
+        /*/////////////////     find a car     /////////////////*/
+    
+        .find-a-car-container {
+            margin-top: 50rem !important;
+        }
+    
+        /*/////////////////     find a car end     /////////////////*/
 
 
 }
@@ -838,6 +910,14 @@ button {
         }
         /*////////////////   about end   ////////////////*/
 
+            /*/////////////////     find a car     /////////////////*/
+    
+    .find-a-car-container {
+        margin-top: 50rem !important;
+    }
+
+    /*/////////////////     find a car end     /////////////////*/
+
 
 
 }
@@ -866,4 +946,11 @@ button {
 
     /*///////////////////      nav-bar end      ///////////////////*/
     
+}
+
+
+@media (min-width:577px) and (max-width:640px) {
+    .find-a-car-container {
+        margin-top: 50rem !important;
+    }
 }
