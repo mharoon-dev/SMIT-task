@@ -289,7 +289,7 @@ button {
     .find-a-car-container {
         width: 100%;
         height: 100vh;
-        /* border: 2px solid red; */
+        /* border: 2px solid red;    */
         display: flex;
         justify-content: center;
         align-items:center;
@@ -329,7 +329,114 @@ button {
         margin-top: 6rem !important;
     }
 
+    .find-a-car-btn {
+        width: 15rem !important;
+        height: 2.8em !important;
+        margin-left: auto;
+        margin-right: auto;
+        top: 1rem !important;
+        border-color: #0D9CE2;
+        color: #0D9CE2;
+    }
+
+    .find-a-car-btn:hover {
+        background-color: #0D9CE2;
+        color: white;
+    }
+
     /*////////////////   find a car end   ////////////////*/
+
+    /*////////////////   book your car   ////////////////*/
+    .book-your-car-container {
+        width: 100%;
+        height: 100vh;
+        background-color: #FEFBF6;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .book-your-car {
+        width: 95%;
+        height: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .book-your-car-h1 {
+        margin-top: -5rem !important;
+        text-transform: capitalize !important;
+    }
+
+    .book-your-car-p {
+        text-align: center;
+    }
+    select {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        padding-right: 0.6rem;
+        margin-left: 2rem !important;
+        margin-bottom: 2rem !important;
+        border-color: rgb(208, 208, 208);
+        border-radius: 3px;
+    }
+
+    .book-a-car-div {
+        width: 100%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .book-a-car-card1,.book-a-car-card2,.book-a-car-card3,.book-a-car-card4 {
+        -webkit-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
+        -moz-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
+        box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
+        border: none !important;
+    }
+
+    .card-body {
+        background-color: #FFFFFF;
+    }
+
+    .card-h5 {
+        color: #0B3A6D;
+        font-size: x-large !important;
+        margin-top: 1rem !important;
+        margin-left: 0.5rem !important;
+    }
+
+    .checked {
+        color: orange;
+    }
+
+    .book-a-car-btn {
+        width: 100% !important;
+        border-radius: 0 0  5px 5px!important;
+        background-color: #1AA9E5 !important;
+        border: none !important;
+    }
+    .book-a-car-btn:hover {
+        background-color: white !important;
+        color: #1AA9E5;
+        border: 1px solid #1AA9E5 !important;
+    }
+
+    .book-a-car-btn-end {
+        margin-top: 1rem !important;
+        color: white !important;
+        width: 20% !important;
+        background-color: #1AA9E5;
+    }
+    .book-a-car-btn-end:hover {
+        background-color: #fff;
+        color: #1AA9E5 !important  ;
+        border-color: #1AA9E5 !important  ;
+    }
+    /*////////////////   book your car end   ////////////////*/
 
 
 
@@ -365,6 +472,30 @@ button {
 
 /*///////////////////    reponsive    ///////////////////*/
 
+@media (min-width:1440px) {
+
+    /*/////////////////     book a car     /////////////////*/
+    .book-your-car-container {
+        margin-top: 15rem !important;
+    }
+
+    .book-your-car-container {
+        height: 80vh !important;
+    }
+
+    .book-your-car {
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+    .book-your-car div,button,p,h1 {
+        margin-bottom: 0.5rem !important;
+
+    }
+    /*/////////////////     book a car end     /////////////////*/
+
+}
+
 
 @media (min-width:1024px) and (max-width:1440px) {
 
@@ -377,6 +508,23 @@ button {
     /*/////////////////     find a car end     /////////////////*/
 
 
+    /*/////////////////     book a car     /////////////////*/
+    .book-your-car-container {
+            height: 100vh !important;
+            margin-top: 15rem !important;
+    }
+
+
+    .book-your-car {
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+    .book-your-car div,button,p,h1 {
+        margin-bottom: 0.5rem !important;
+
+    }
+    /*/////////////////     book a car end     /////////////////*/
 }
     
 
@@ -451,6 +599,33 @@ button {
         }
     
         /*/////////////////     find a car end     /////////////////*/
+
+
+        /*/////////////////     book your car     /////////////////*/
+        .book-your-car-container {
+            height: 95vh !important;
+            margin-top: 15rem !important;
+        }
+
+        .book-a-car-btn-end {
+            width: 30% !important;
+        }
+
+
+        .book-your-car-container {
+            height: 80vh !important;
+        }
+    
+        .book-your-car {
+            display: flex;
+            justify-content: flex-end !important;
+            align-items: center !important;
+        }
+        .book-your-car div,button,p,h1 {
+            margin-bottom: 0.5rem !important;
+    
+        }
+        /*/////////////////     book your car end     /////////////////*/
 
     
 }
@@ -540,10 +715,51 @@ button {
             /*/////////////////     find a car     /////////////////*/
     
     .find-a-car-container {
-        margin-top: 25rem !important;
+        margin-top: 15rem !important;
+    }
+
+    .card-7 {
+        display: none !important;
+    }
+    .card-8 {
+        display: none !important;
+    }
+    .card-6 {
+        display: none !important;
+    }
+    .card-5 {
+        display: none !important;
     }
 
     /*/////////////////     find a car end     /////////////////*/
+
+
+    /*/////////////////     book your car     /////////////////*/
+    .book-your-car-container {
+        height: 95vh !important;
+        margin-top: 15rem !important;
+    }
+
+    .book-your-car {
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+    .book-your-car div,button,p,h1 {
+        margin-bottom: 0.5rem !important;
+
+    }
+    .book-a-car-card4 {
+        display: none !important;
+    }
+    .book-a-car-card3 {
+        display: none !important;
+    }
+
+    .book-a-car-btn-end {
+        width: 30% !important;
+    }
+    /*/////////////////     book your car end     /////////////////*/
 
 
     
@@ -642,12 +858,58 @@ button {
         /*/////////////////     find a car     /////////////////*/
     
         .find-a-car-container {
-            margin-top: 30rem !important;
+            margin-top: 10rem !important;
+        }
+        .card-7 {
+            display: none !important;
+        }
+        .card-8 {
+            display: none !important;
+        }
+        .card-6 {
+            display: none !important;
+        }
+        .card-5 {
+            display: none !important;
+        }
+        .card-4 {
+            display: none !important;
         }
     
         /*/////////////////     find a car end     /////////////////*/
 
+            /*/////////////////     book your car     /////////////////*/
+    .book-your-car-container {
+        margin-top: 12rem !important;
+        height: 83vh !important;
+    }
 
+    .book-your-car {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .book-a-car-card4 {
+        display: none !important;
+    }
+    .book-a-car-card3 {
+        display: none !important;
+    }
+    .book-a-car-card1 {
+        width:   15rem !important; 
+    }
+    .book-a-car-card2 {
+    width:  15rem !important; 
+    }
+
+    .book-a-car-btn-end {
+        width: 30% !important;
+    }
+    /*/////////////////     book your car end     /////////////////*/
+
+    
 }
 
 
@@ -761,10 +1023,71 @@ button {
         /*/////////////////     find a car     /////////////////*/
     
         .find-a-car-container {
-            margin-top: 50rem !important;
+            margin-top: 10rem !important;
+        }
+        .card-7 {
+            display: none !important;
+        }
+        .card-8 {
+            display: none !important;
+        }
+        .card-6 {
+            display: none !important;
+        }
+        .card-5 {
+            display: none !important;
+        }
+        .card-4 {
+            display: none !important;
         }
     
         /*/////////////////     find a car end     /////////////////*/
+
+        /*/////////////////     book your car     /////////////////*/
+    .book-your-car-container {
+        margin-top: 15rem !important;
+        height: 83vh !important;
+    }
+
+    .book-your-car {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .book-your-car-dropdown {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #book-your-car-rating {
+        display: none;
+    }
+
+
+
+    #book-your-car-price {
+        margin-left: 0 !important;
+    }   
+
+
+    .book-a-car-card4 {
+        display: none !important;
+    }
+    .book-a-car-card3 {
+        display: none !important;
+    }
+    .book-a-car-card1 {
+        width:   11rem !important; 
+    }
+    .book-a-car-card2 {
+    width:  11rem !important; 
+    }
+    .book-a-car-btn-end {
+        width: 50% !important;
+    }
+    /*/////////////////     book your car end     /////////////////*/
 
 
 }
@@ -790,8 +1113,14 @@ button {
         /*////////////   nav-bar end   ////////////*/
 
     /*////////////////   top bar   ////////////////*/
+
+    .top-bar-container {
+        display: flex;
+        justify-content: flex-start;
+        
+    }
     .uae-div {
-        width: 25% !important;
+        width: 10% !important;
         margin-top: 1rem !important;
     }
     .top-bar {
@@ -804,6 +1133,8 @@ button {
         justify-content: flex-start !important;
         width: 20% !important;
     }
+
+
     .arabic-div {
         display: none !important;
     }
@@ -814,6 +1145,9 @@ button {
 
 
     /*////////////////   home   ////////////////*/
+    .home-container {
+        margin-bottom: 5rem !important;
+    }
     .home {
         display: flex !important;
         flex-direction: column !important;
@@ -913,10 +1247,98 @@ button {
             /*/////////////////     find a car     /////////////////*/
     
     .find-a-car-container {
-        margin-top: 50rem !important;
+        margin-top: 10rem !important;
+    }
+    .card-8 {
+        display: none !important;
+    }
+    .card-7 {
+        display: none !important;
+    }
+    .card-6 {
+        display: none !important;
+    }
+    .card-5 {
+        display: none !important;
+    }
+    .card-4 {
+        display: none !important;
     }
 
     /*/////////////////     find a car end     /////////////////*/
+
+    /*/////////////////     book your car     /////////////////*/
+    .book-your-car-container {
+        margin-top: 15rem !important;
+        height: 90vh !important;
+    }
+
+    
+
+    .book-your-car {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .book-your-car-h1 {
+        font-size: large !important;
+    }
+    .book-your-car-p {
+        font-size: small !important;
+    }
+
+    .book-your-car-dropdown {
+        width: 100%;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #book-your-car-rating {
+        display: none;
+    }
+
+    #book-your-car-color {
+        display: none;
+    }
+
+    #book-your-car-price {
+        margin-left: 0 !important;
+    } 
+
+
+
+
+    .book-a-car-card4 {
+        display: none !important;
+    }
+    .book-a-car-card3 {
+        display: none !important;
+    }
+    .book-a-car-card1 {
+        width:   15rem !important; 
+    }
+    .book-a-car-card2 {
+    display: none;
+    }
+
+
+
+    .book-your-car {
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+    .book-your-car div,button,p,h1 {
+        margin-bottom: 0.5rem !important;
+
+    }
+    .book-a-car-btn-end {
+        width: 50% !important;
+    }
+    /*/////////////////     book your car end     /////////////////*/
+
 
 
 
@@ -951,6 +1373,14 @@ button {
 
 @media (min-width:577px) and (max-width:640px) {
     .find-a-car-container {
-        margin-top: 50rem !important;
+        height: 100vh;
+        margin-top: 20rem !important;
     }
+}
+
+@media (max-width:1270px) {
+    .book-a-car-card4 {
+        display: none !important;
+    }
+
 }
