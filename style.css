@@ -6,116 +6,12 @@
 
 /*///////////////////////    top bar    ///////////////////////*/
 
-.top-bar-container {
-    width: 100% !important;
-    height: 3rem !important;
-    background-color: #005085 !important;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
-
 .top-bar {
-    width: 90% !important;
-    height: 100% !important;
-    /* border: 2px solid red; */
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
+    background-color: #005085 !important;
 }
 
-.top-bar-drop-down-btn {
-    margin-top: 0.4rem !important;
-    margin-left: 0.3rem !important;
-}
-
-
-.uae-div {
-    /* border: 2px solid red; */
-    display: flex !important;
-    align-items: flex-start !important;
-    justify-content: flex-start !important;
-    width: 50% !important;
-}
-
-#uae-img {
-    width: 1rem;
-    height: 0.8rem;
-    margin-top: 0.2rem;
-    margin-right: 0.3rem;
-}
-
-#uae-p {
-    color: white !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    font-size: small !important;
-}
-
-
-.top-bar-right-side-div {
-    display: flex !important;
-    justify-content: space-around !important;
-    align-items: flex-start !important;
-    /* border: 2px solid red; */
-    width:30% !important;
-}
-
-
-.eng-div {
-    /* border: 2px solid red; */
-    display: flex !important;
-    /* align-items: center !important; */
-    justify-content: center !important;
-    height: 1rem !important;
-}
-
-#eng-img {
-    width: 1.3rem !important;
-    height: 0.9rem !important;
-    margin-top: 0.2rem !important;
-    margin-right: 0.3rem !important;
-}
-
-#eng-p {
-    color: white !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    font-size: small !important;
-}
-
-
-.tv-div {
-    /* border: 2px solid red; */
-    display: flex !important;
-    /* align-items: center !important; */
-    height: 1rem !important;
-    justify-content: center !important;
-}
-
-#tv-img {
-    width: 1.3rem !important;
-    height: 0.9rem !important;
-    margin-top: 0.2rem !important;
-    margin-right: 0.3rem !important;
-}
-
-#tv-p {
-    color: white !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    font-size: small !important;
-}
-
-
-.arabic-div {
-    /* border: 2px solid red; */
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-}
-
-#arabic-p {
-    color: white !important;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-    font-size: small !important;
+.topbar-p {
+    color: white;
 }
 
 /*///////////////////////   top bar end   ///////////////////////*/
@@ -507,15 +403,6 @@ button {
 
     /*////////////////   explore   ////////////////*/
 
-
-
-
- 
-
-
-
-
-
     .explore-p {
         color: #002D68;
         font-family: sans-serif;
@@ -528,24 +415,6 @@ button {
     .explore-span {
         color: #ec8334;
     }
-
-   
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
 
 
     /*////////////////   explore end   ////////////////*/
@@ -898,15 +767,6 @@ button {
         }
         /*////////////   nav-bar end   ////////////*/
 
-    /*////////////////   top bar   ////////////////*/
-    .uae-div {
-        width: 30% !important;
-    }
-    .top-bar-right-side-div {
-        width: 40% !important;
-    }
-    /*////////////////   top bar end   ////////////////*/
-
     /*////////////////   about   ////////////////*/
     .about {
         display: flex;
@@ -1046,26 +906,8 @@ button {
         }
         /*////////////   nav-bar end   ////////////*/
 
-    /*////////////////   top bar   ////////////////*/
-    .top-bar {
-        display: flex;
-        align-items: center !important;
-    }
-    .uae-div {
-        width: 30% !important;
-        margin-top: 1rem !important;
-    }
-    .top-bar-right-side-div {
-        width: 40% !important;
-        display: flex;
-        align-items: center !important;
-    }
-    .arabic-div {
-        display: none !important;
-    }
-    /*////////////////   top bar end  ////////////////*/
 
-    /*////////////////   about   ////////////////*/
+     /* ////////////////   about   ////////////  */
     .about-container {
         width: 100%;
         height: 70vh;
@@ -1131,7 +973,7 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } 
     /*////////////////   about end   ////////////////*/
 
         /*/////////////////     find a car     /////////////////*/
@@ -1227,34 +1069,14 @@ button {
         /*////////////   nav-bar end   ////////////*/
 
     /*////////////////   top bar   ////////////////*/
-
-    .top-bar-container {
-        display: flex;
-        justify-content: flex-start;
-        
-    }
     .uae-div {
-        width: 10% !important;
-        margin-top: 1rem !important;
+        margin-left: 0.7rem !important;
     }
-    .top-bar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center !important;
-    }
-    .top-bar-right-side-div {
-        display: flex !important;
-        justify-content: flex-start !important;
-        width: 20% !important;
+    .english-div {
+        margin-left: 50% !important;
     }
 
-
-    .arabic-div {
-        display: none !important;
-    }
-    .tv-div {
-        display: none !important;
-    }
+    
     /*////////////////   top bar end   ////////////////*/
 
 
