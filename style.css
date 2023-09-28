@@ -151,83 +151,44 @@
 
 
 /*////////////////   book your car   ////////////////*/
-    .book-your-car-container {
-        width: 100%;
-        height: 100vh;
-        background-color: #FEFBF6;
-        /* border: 2px solid red; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .book-your-car {
-        width: 95%;
-        height: 100%;
-        /* border: 2px solid red; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.card-body {
+    background-color: #FFFFFF;
+}
 
-    .book-your-car-h1 {
-        margin-top: -5rem !important;
-        text-transform: capitalize !important;
-    }
+.card-h5 {
+    color: #0B3A6D;
+    font-size: x-large !important;
+    margin-top: 1rem !important;
+    margin-left: 0.5rem !important;
+}
 
-    .book-your-car-p {
-        text-align: center;
-    }
-    select {
-        padding-top: 0.2rem;
-        padding-bottom: 0.2rem;
-        padding-right: 0.6rem;
-        margin-left: 2rem !important;
-        margin-bottom: 2rem !important;
-        border-color: rgb(208, 208, 208);
-        border-radius: 3px;
-    }
+.book-your-car h2 {
+    font-weight: 600;
+}
 
-    .book-a-car-div {
-        width: 100%;
-        /* border: 2px solid red; */
-        display: flex;
-        justify-content: space-around;
-    }
+.checked {
+    color: orange;
+}
 
-    .book-a-car-card1,.book-a-car-card2,.book-a-car-card3,.book-a-car-card4 {
-        -webkit-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
-        -moz-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
-        box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
-        border: none !important;
-    }
+.book-a-car-btn {
+    width: 100% !important;
+    border-radius: 0 0  5px 5px!important;
+    background-color: #1AA9E5 !important;
+    border: none !important;
+}
 
-    .card-body {
-        background-color: #FFFFFF;
-    }
+.book-a-car-btn:hover {
+    background-color: white !important;
+    color: #1AA9E5;
+    border: 1px solid #1AA9E5 !important;
+}
 
-    .card-h5 {
-        color: #0B3A6D;
-        font-size: x-large !important;
-        margin-top: 1rem !important;
-        margin-left: 0.5rem !important;
-    }
-
-    .checked {
-        color: orange;
-    }
-
-    .book-a-car-btn {
-        width: 100% !important;
-        border-radius: 0 0  5px 5px!important;
-        background-color: #1AA9E5 !important;
-        border: none !important;
-    }
-    .book-a-car-btn:hover {
-        background-color: white !important;
-        color: #1AA9E5;
-        border: 1px solid #1AA9E5 !important;
-    }
+.book-a-car-card {
+    -webkit-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
+    box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
+    border: none !important;
+}
 
     .book-a-car-btn-end {
         margin-top: 1rem !important;
@@ -235,6 +196,7 @@
         width: 20% !important;
         background-color: #1AA9E5;
     }
+    
     .book-a-car-btn-end:hover {
         background-color: #fff;
         color: #1AA9E5 !important  ;
