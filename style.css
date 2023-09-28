@@ -20,21 +20,26 @@
 
 /*///////////////////////   nav-bar   ///////////////////////*/
 
-.nav-brand {
+.nav-container {
+    background-color: white !important;
+}
+
+.logo {
     color: #04A1E8 !important;
     font-weight: 600 !important;
     font-size: x-large !important;
 }
-.nav-link {
-    color: black !important;
-    text-transform: capitalize;
-}
-button {
-    text-transform: capitalize;
-}
 
-.mylink {
-    margin-left: 12rem !important;
+.nav-btn {
+    background-color:  #1AA9E5 !important;
+    color: white;
+    font-weight: 400;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    border: none !important;
+    border-radius: 0.2rem !important;
 }
 
 /*///////////////////////   nav-bar end   ///////////////////////*/
@@ -617,24 +622,7 @@ button {
 
 @media (min-width:768px)and (max-width:991px) {
 
-    /*////////////   nav-bar   ////////////*/
-    .nav-link {
-        text-align: center !important;
-        margin-left: 0 !important;
-        padding-left: 0 !important;
-    }
-    .nav-link1 {
-        margin-right: 11rem !important;
-    }
-    .btn-primary {
-        width: 100% !important;
-        border:none !important ;
-    }
-    .navbar-toggler {
-        border: none !important;
-    }
-    /*////////////   nav-bar end   ////////////*/
-
+    
         /*////////////////   about   ////////////////*/
         .about {
             display: flex;
@@ -751,22 +739,7 @@ button {
 
 @media (min-width:576px) and (max-width:768px) {
 
-        /*////////////   nav-bar   ////////////*/
-        .nav-link {
-            text-align: center !important;
-            margin-left: 0 !important;
-            padding-left: 0 !important;
-        }
-        .nav-link1 {
-            margin-right: 11rem !important;
-        }
-        .btn-primary {
-            width: 100% !important;
-        }
-        .navbar-toggler {
-            border: none !important;
-        }
-        /*////////////   nav-bar end   ////////////*/
+        
 
     /*////////////////   about   ////////////////*/
     .about {
@@ -889,24 +862,6 @@ button {
 
 
 @media (min-width:425px) and (max-width:576px) {
-
-        /*////////////   nav-bar   ////////////*/
-        .nav-link {
-            text-align: center !important;
-            margin-left: 0 !important;
-            padding-left: 0 !important;
-        }
-        .nav-link1 {
-            margin-right: 11rem !important;
-        }
-        .btn-primary {
-            width: 100% !important;
-        }
-        .navbar-toggler {
-            border: none !important;
-        }
-        /*////////////   nav-bar end   ////////////*/
-
 
      /* ////////////////   about   ////////////  */
     .about-container {
@@ -1051,23 +1006,6 @@ button {
 
 
 @media (max-width:425px) {
-
-        /*////////////   nav-bar   ////////////*/
-        .nav-link {
-            text-align: center !important;
-            margin-left: 0 !important;
-            padding-left: 0 !important;
-        }
-        .nav-link1 {
-            margin-right: 11rem !important;
-        }
-        .btn-primary {
-            width: 100% !important;
-        }
-        .navbar-toggler {
-            border: none !important;
-        }
-        /*////////////   nav-bar end   ////////////*/
 
     /*////////////////   top bar   ////////////////*/
     .uae-div {
@@ -1289,24 +1227,6 @@ button {
 
 
 /*///////////////////////////      extra responsive      ///////////////////////////*/
-
-@media (min-width:992px) and (max-width:1318px) {
-    /*///////////////////      nav-bar      ///////////////////*/
-    .nav-brand {
-        margin-right: -8rem !important;
-    }
-    .nav-link-login {
-        margin-left: -10rem !important;
-        margin-right: -1rem !important;
-    }
-    /* .nav-link {
-        margin-right: 12rem !important;
-    } */
-
-    /*///////////////////      nav-bar end      ///////////////////*/
-    
-}
-
 
 @media (min-width:577px) and (max-width:640px) {
     .find-a-car-container {
