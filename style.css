@@ -30,6 +30,10 @@
     font-size: x-large !important;
 }
 
+.nav-item {
+    color: black !important;
+}
+
 .nav-btn {
     background-color:  #1AA9E5 !important;
     color: white;
@@ -99,75 +103,20 @@
 
 /*//////////////////////     about    ///////////////////////*/
 
-    .about-container {
-        /* border: 2px solid red; */
-        width: 100%;
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .about{
-        /* border: 2px solid red !important; */
-        width: 90%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+.about h2 {
+    color: #22AAE9 !important;
+    font-weight: bold !important;
+    font-size: 3rem !important;
+}
 
-    }
+.about span {
+    background-image: linear-gradient(to right, #fc8c15, #efcb00);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
 
-    #about-h1 {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        margin-left: 5rem;
-        line-height: 0.9;
-    }
-
-    #about-span {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        color: #E18234;
-    }
-
-    .about-part-2{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 5rem;
-    }
-
-    .about-part-2-1{
-        display: flex;
-        width: 20%;
-    }
-    .about-part-2-2{
-        display: flex;
-        width: 20%;
-    }
-    .about-part-2-3{
-        display: flex;
-        width: 20%;
-    }
-    .about-part-2-4{
-        display: flex;
-        width: 20%;
-    }
-
-    .about-number {
-        font-size: 3rem;
-        font-weight: bold;
-        color: #22AAE9;
-    }
-    .about-text p {
-        margin-top: 0.8rem;
-        margin-left: 1rem;
-        font-weight: 600;
-
-    }
-
-    /*////////////////   about end   ////////////////*/
+/*/////////////////////   about end  ///////////////////////*/
 
 
     /*////////////////   find a car   ////////////////*/
@@ -503,67 +452,6 @@
 
 @media (min-width:992px) and (max-width:1024px) {
 
-    /*////////////////   about   ////////////////*/
-    .about {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    #about-h1 {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        margin:0 0 0 0 !important;
-        margin-top: 3rem !important;
-        line-height: 0;
-    }
-
-    #about-span {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        margin-top: 3rem !important;
-        color: #E18234;
-    }
-
-    .about-part-2 {
-        display: flex;
-        justify-content: center !important;
-        flex-wrap: wrap !important;
-        width: 100%;
-    }
-    
-    .about-part-2-1 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-    }
-    .about-part-2-2 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-
-    }
-    .about-part-2-3 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .about-part-2-4 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    /*////////////////   about end   ////////////////*/
-
         /*/////////////////     find a car     /////////////////*/
     
         .find-a-car-container {
@@ -605,68 +493,6 @@
 
 
 @media (min-width:768px)and (max-width:991px) {
-
-    
-        /*////////////////   about   ////////////////*/
-        .about {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-        }
-    
-        #about-h1 {
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: 2.5rem;
-            margin-top: 3rem !important;
-            line-height: 0;
-            margin: 0 0 0 0;
-        }
-    
-        #about-span {
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: 2.5rem;
-            margin-top: 3rem !important;
-            color: #E18234;
-        }
-    
-        .about-part-2 {
-            display: flex;
-            justify-content: center !important;
-            flex-wrap: wrap !important;
-            width: 100%;
-        }
-        
-        .about-part-2-1 {
-            width: 50% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-        .about-part-2-2 {
-            width: 50% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 1rem;
-    
-        }
-        .about-part-2-3 {
-            width: 50% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .about-part-2-4 {
-            width: 50% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        /*////////////////   about end   ////////////////*/
 
             /*/////////////////     find a car     /////////////////*/
     
@@ -722,70 +548,6 @@
 }
 
 @media (min-width:576px) and (max-width:768px) {
-
-        
-
-    /*////////////////   about   ////////////////*/
-    .about {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start !important;
-        align-items: center;
-    }
-
-    #about-h1 {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        margin-left: 0 !important;
-        margin-top: 3rem !important;
-        line-height: 0;
-        margin: 0 0 0 0 !important;
-    }
-
-    #about-span {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        margin-top: 3rem !important;
-        color: #E18234;
-    }
-
-    .about-part-2 {
-        display: flex;
-        justify-content: center !important;
-        flex-wrap: wrap !important;
-        width: 100%;
-    }
-    
-    .about-part-2-1 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-    }
-    .about-part-2-2 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-
-    }
-    .about-part-2-3 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .about-part-2-4 {
-        width: 50% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    /*////////////////   about end   ////////////////*/
 
         /*/////////////////     find a car     /////////////////*/
     
@@ -846,75 +608,6 @@
 
 
 @media (min-width:425px) and (max-width:576px) {
-
-     /* ////////////////   about   ////////////  */
-    .about-container {
-        width: 100%;
-        height: 70vh;
-    }
-    .about {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start !important;
-        align-items: center;
-    }
-
-    #about-h1 {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        margin-left: 0 !important;
-        font-size: x-large !important;
-        margin: 0 0 0 0 ;
-    }
-
-
-
-    #about-span {
-        font-family: sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        font-size: x-large !important;
-        color: #E18234;
-        margin-top: -2rem !important;
-    }
-
-    .about-part-2 {
-        display: flex;
-        justify-content: center !important;
-        flex-wrap: wrap !important;
-        width: 100%;
-        margin-top: 1rem !important;
-    }
-    
-    .about-part-2-1 {
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-    }
-    .about-part-2-2 {
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 1rem;
-
-    }
-    .about-part-2-3 {
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .about-part-2-4 {
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } 
-    /*////////////////   about end   ////////////////*/
 
         /*/////////////////     find a car     /////////////////*/
     
@@ -1021,76 +714,8 @@
 
     /*////////////////   home end   ////////////////*/
 
-        /*////////////////   about   ////////////////*/
-        .about-container {
-            width: 100%;
-            height: 70vh;
-        }
-        .about {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start !important;
-            align-items: center;
-        }
-    
-        #about-h1 {
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: 2.5rem;
-            margin-left: 0 !important;
-            font-size: x-large !important;
-            margin: 0 0 0 0 ;
-        }
-    
-    
-    
-        #about-span {
-            font-family: sans-serif;
-            font-weight: bold;
-            font-size: 2.5rem;
-            font-size: x-large !important;
-            color: #E18234;
-            margin-top: -2rem !important;
-        }
-    
-        .about-part-2 {
-            display: flex;
-            justify-content: center !important;
-            flex-wrap: wrap !important;
-            width: 100%;
-            margin-top: 1rem !important;
-        }
-        
-        .about-part-2-1 {
-            width: 100% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 1rem;
-        }
-        .about-part-2-2 {
-            width: 100% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 1rem;
-    
-        }
-        .about-part-2-3 {
-            width: 100% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .about-part-2-4 {
-            width: 100% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        /*////////////////   about end   ////////////////*/
 
-            /*/////////////////     find a car     /////////////////*/
+    /*/////////////////     find a car     /////////////////*/
     
     .find-a-car-container {
         margin-top: 10rem !important;
