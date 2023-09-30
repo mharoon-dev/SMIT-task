@@ -204,49 +204,44 @@
     background-color: #fff;
     color: #1AA9E5 !important  ;
 }
-    /*////////////////   book your car end   ////////////////*/
+/*////////////////   book your car end   ////////////////*/
 
 
-    /*////////////////   image   ////////////////*/
-    .img-container {
-        width: 100%;
-        height: 70vh;
-    }
+/*////////////////   image   ////////////////*/
+.img-container {
+        height: 75vh;
+}
 
-    .img {
-        width: 95%;
-        height: 85%;
+.img {
+        width: 90%;
+        height: 100%;
         background-image: url(./images/image/Dark-4K-Lamborghini-Wallpaper-HD.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px;
-    }
+}
 
-  .img-div {
-    margin-left: 5%;
-  }
-
-
-
-    .img-p {
+.img h5 {
         color: white;
         font-family: sans-serif;
-        padding-bottom: 1rem;
         font-size: medium;
-    }
+}
 
-    .img-span {
-        color:  orange;
+.img-span {
+        background-image: linear-gradient(to right, #fb4a3a, #ee9320);
+        -webkit-background-clip: text;
+        color: transparent;
         font-size: 3rem !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .img-h1 {
+.img h1 {
         font-family: sans-serif;
         font-weight: 600;
         color: white;
         text-transform: capitalize;
         line-height: 1;
-    }
+}
 
     .img-btn {
         background-color: #1AA9E5;
