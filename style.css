@@ -262,17 +262,11 @@
 
     /*////////////////   explore   ////////////////*/
 
-    .explore-p {
-        color: #002D68;
-        font-family: sans-serif;
-        font-size: large;
-        font-weight:600 !important;
-        text-transform: capitalize;
+    .explore h6 {
+        color: #17568c;
     }
-
-
-    .explore-span {
-        color: #ec8334;
+    .explore span {
+        color: #f09914;
     }
 
 
@@ -312,6 +306,19 @@
 
 /*///////////////////    reponsive    ///////////////////*/
 
+@media (min-width:1200px) {
+
+    /*////////////////   explore   ////////////////*/
+
+    .explore-pic {
+        height:  50% !important;
+    }
+
+    /*////////////////   explore end   ////////////////*/
+
+}
+
+
 @media (max-width:425px) {
 
     /*////////////////   top bar   ////////////////*/
@@ -343,4 +350,15 @@
     }
 
     /*////////////////   home end   ////////////////*/
+
+
+    .explore-pic {
+
+    /*////////////////   explore   ////////////////*/
+
+        height:  50% !important;
+    }
+
+    /*////////////////   explore end   ////////////////*/
+
 }
