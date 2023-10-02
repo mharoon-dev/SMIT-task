@@ -209,68 +209,95 @@
 
 /*////////////////   image   ////////////////*/
 .img-container {
-        height: 75vh;
+    height: 75vh;
 }
 
 .img {
-        width: 90%;
-        height: 100%;
-        background-image: url(./images/image/Dark-4K-Lamborghini-Wallpaper-HD.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    background-image: url(./images/image/Dark-4K-Lamborghini-Wallpaper-HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
 
 .img h5 {
-        color: white;
-        font-family: sans-serif;
-        font-size: medium;
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
 }
 
 .img-span {
-        background-image: linear-gradient(to right, #fb4a3a, #ee9320);
-        -webkit-background-clip: text;
-        color: transparent;
-        font-size: 3rem !important;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #fb4a3a, #ee9320);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3rem !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 .img h1 {
-        font-family: sans-serif;
-        font-weight: 600;
-        color: white;
-        text-transform: capitalize;
-        line-height: 1;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+    line-height: 1;
 }
 
-    .img-btn {
-        background-color: #1AA9E5;
-        color: white;
-        border: none !important;
-        width: 10rem !important;
-        margin-top: 1rem;
-        border-radius: 2px !important;
-    }
+.img-btn {
+    background-color: #1AA9E5;
+    color: white;
+    border: none !important;
+    width: 10rem !important;
+    margin-top: 1rem;
+    border-radius: 2px !important;
+}
 
-    .img-btn:hover {
-        background-color: transparent;
-        border: 1px solid white !important;
-        color: white ;
-    } 
-    /*////////////////   image end   ////////////////*/
+.img-btn:hover {
+    background-color: transparent;
+    border: 1px solid white !important;
+    color: white ;
+} 
+/*////////////////   image end   ////////////////*/
 
 
-    /*////////////////   explore   ////////////////*/
+/*////////////////   explore   ////////////////*/
 
-    .explore h6 {
+.explore h6 {
         color: #17568c;
-    }
-    .explore span {
+}
+.explore span {
         color: #f09914;
-    }
+}
+
+/*////////////////   explore end   ////////////////*/
 
 
-    /*////////////////   explore end   ////////////////*/
+/*////////////////   reviews   ////////////////*/
+.review {
+    background-color: #f7fcff;
+}
+.review-p1 {
+    color: #01497b;
+    font-weight:700;
+}
+
+.review-span {
+    color: #50bdf6;
+    font-weight: 600;
+}
+.card-pic {
+    border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    height: 6rem !important;
+    width:  6rem !important;
+}
+.review-card {
+    box-shadow: 0px 0px 19px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 19px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px -9px rgba(0,0,0,0.75);    
+}
+/*////////////////   reviews end   ////////////////*/
 
 
 
@@ -307,15 +334,11 @@
 /*///////////////////    reponsive    ///////////////////*/
 
 @media (min-width:1200px) {
-
     /*////////////////   explore   ////////////////*/
-
     .explore-pic {
         height:  50% !important;
     }
-
     /*////////////////   explore end   ////////////////*/
-
 }
 
 
@@ -329,7 +352,6 @@
 
 
     /*////////////////   home   ////////////////*/
-    
     .home span {
         font-size: x-large !important;
     }
@@ -348,17 +370,12 @@
     .home-btn {
         width: 7rem !important;
     }
-
     /*////////////////   home end   ////////////////*/
 
-
-    .explore-pic {
-
     /*////////////////   explore   ////////////////*/
-
+    .explore-pic {
         height:  50% !important;
     }
-
     /*////////////////   explore end   ////////////////*/
 
 }
