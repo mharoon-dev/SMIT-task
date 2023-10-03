@@ -3,37 +3,37 @@
     padding: 0;
     margin: 0;
 }
+.checked {
+    color: orange;
+}
+ol,ul {
+    padding: 0 !important;
+}
+
+
 
 /*///////////////////////    top bar    ///////////////////////*/
-
 .top-bar {
     background-color: #005085 !important;
 }
-
 .topbar-p {
     color: white;
 }
-
 /*///////////////////////   top bar end   ///////////////////////*/
 
 
-
 /*///////////////////////   nav-bar   ///////////////////////*/
-
 .nav-container {
     background-color: white !important;
 }
-
 .logo {
     color: #04A1E8 !important;
     font-weight: 600 !important;
     font-size: x-large !important;
 }
-
 .nav-item {
     color: black !important;
 }
-
 .nav-btn {
     background-color:  #1AA9E5 !important;
     color: white;
@@ -45,13 +45,10 @@
     border: none !important;
     border-radius: 0.2rem !important;
 }
-
 /*///////////////////////   nav-bar end   ///////////////////////*/
 
 
-
 /*///////////////////////     home     ///////////////////////*/
-
 .home-container {
     width: 100%;
     height:  100%;
@@ -98,40 +95,31 @@
     width: 10rem;
     padding-right: 0.5rem ;
 }
-
 /*///////////////////////   home end   ///////////////////////*/
 
 
-
 /*//////////////////////     about    ///////////////////////*/
-
 .about h2 {
     color: #22AAE9 !important;
     font-weight: bold !important;
     font-size: 3rem !important;
 }
-
 .about span {
     background-image: linear-gradient(to right, #fc8c15, #efcb00);
     -webkit-background-clip: text;
     color: transparent;
     font-weight: 700;
 }
-
 /*/////////////////////   about end  ///////////////////////*/
 
 
 /*////////////////////   find a car   /////////////////////*/
-
 .find-a-car h2 {
     font-weight: 500 !important;
-
 }
-
 .find-a-car span {
     color: #029FE1;
 }
-
 .find-a-car-btn {
     padding-right: 4.5rem;
     padding-left: 4.5rem;
@@ -139,15 +127,12 @@
     border-color:#0D9CE2 ;
     border-radius: 3px !important;
 }
-
 .find-a-car-btn:hover {
     background-color: #0D9CE2;
     color: white !important;
     border: none;
 }
-
 /*///////////////////   find a car end   /////////////////*/
-
 
 
 /*////////////////   book your car   ////////////////*/
@@ -157,48 +142,37 @@
 .card-body {
     background-color: #FFFFFF;
 }
-
 .card-h5 {
     color: #0B3A6D;
     font-size: x-large !important;
     margin-top: 1rem !important;
     margin-left: 0.5rem !important;
 }
-
 .book-your-car h2 {
     font-weight: 600;
 }
-
-.checked {
-    color: orange;
-}
-
 .book-a-car-btn {
     width: 100% !important;
     border-radius: 0 0  5px 5px!important;
     background-color: #1AA9E5 !important;
     border: none !important;
 }
-
 .book-a-car-btn:hover {
     background-color: white !important;
     color: #1AA9E5;
     border: 1px solid #1AA9E5 !important;
 }
-
 .book-a-car-card {
     -webkit-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
     -moz-box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
     box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.75) !important;
     border: none !important;
 }
-
 .book-a-car-btn-end {
         color: white !important;
         width: 15rem !important;
         background-color: #1AA9E5;
 }
-    
 .book-a-car-btn-end:hover {
     border-color:#1AA9E5 !important;
     background-color: #fff;
@@ -211,7 +185,6 @@
 .img-container {
     height: 75vh;
 }
-
 .img {
     width: 90%;
     height: 100%;
@@ -220,21 +193,18 @@
     background-size: cover;
     border-radius: 10px;
 }
-
 .img h5 {
     color: white;
     font-family: sans-serif;
     font-size: medium;
 }
-
 .img-span {
     background-image: linear-gradient(to right, #fb4a3a, #ee9320);
     -webkit-background-clip: text;
     color: transparent;
     font-size: 3rem !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
+}
 .img h1 {
     font-family: sans-serif;
     font-weight: 600;
@@ -242,7 +212,6 @@
     text-transform: capitalize;
     line-height: 1;
 }
-
 .img-btn {
     background-color: #1AA9E5;
     color: white;
@@ -251,7 +220,6 @@
     margin-top: 1rem;
     border-radius: 2px !important;
 }
-
 .img-btn:hover {
     background-color: transparent;
     border: 1px solid white !important;
@@ -261,14 +229,12 @@
 
 
 /*////////////////   explore   ////////////////*/
-
 .explore h6 {
         color: #17568c;
 }
 .explore span {
         color: #f09914;
 }
-
 /*////////////////   explore end   ////////////////*/
 
 
@@ -280,7 +246,6 @@
     color: #01497b;
     font-weight:700;
 }
-
 .review-span {
     color: #50bdf6;
     font-weight: 600;
@@ -300,39 +265,36 @@
 /*////////////////   reviews end   ////////////////*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*////////////////   footer   ////////////////*/
+.footer {
+    background-color: #005085;
+}
+.footer li {
+    list-style: none;
+    color: white;
+    margin-top: 1.8rem;
+    font-weight: 100;
+    font-size: large;
+}
+.li-heading {
+    font-weight: 700 !important;
+}
+.lower-footer p {
+    width: 90%;
+    height: 100%;
+    border-top:1px solid rgba(242, 239, 239, 0.274);
+    font-size: large;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-img {
+    width: 1.8rem;
+}
+/*////////////////   footer end   ////////////////*/
 
 
 /*///////////////////    reponsive    ///////////////////*/
-
 @media (min-width:1200px) {
     /*////////////////   explore   ////////////////*/
     .explore-pic {
@@ -341,15 +303,12 @@
     /*////////////////   explore end   ////////////////*/
 }
 
-
 @media (max-width:425px) {
-
     /*////////////////   top bar   ////////////////*/
     .english-div {
         margin-left: 58% !important;
     }
     /*////////////////   top bar end   ////////////////*/
-
 
     /*////////////////   home   ////////////////*/
     .home span {
@@ -377,5 +336,5 @@
         height:  50% !important;
     }
     /*////////////////   explore end   ////////////////*/
-
 }
+/*///////////////////    reponsive end    ///////////////////*/
